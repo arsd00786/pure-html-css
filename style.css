@@ -1,0 +1,628 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contain
+{
+    background-color: blue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: url('./pic1.jpeg') no-repeat center center fixed;
+   -webkit-background-size:cover;
+   -moz-background-size:cover;
+   -o-background-size:cover;
+   background-size:cover;
+    background-position: 0 0;
+
+    
+}
+
+.navContainer
+{
+    
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;    
+}
+
+.navItem li
+{
+    
+    display: inline;
+    font-size: 15px;
+    margin: 10px;
+
+}
+.navItem{ 
+    
+    
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.navItem li a
+{
+    text-decoration: none;
+    color: black;
+    text-transform:uppercase;
+    
+    
+}
+
+.navItem li a:hover
+{
+   
+    border-bottom: black 2px solid;
+}
+
+.navContainer2
+{
+   
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.navItem2 li
+{
+    
+    display: inline;
+    font-size: 15px;
+    margin: 10px;
+
+}
+.navItem2{ 
+    
+   
+    height: 9vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.navItem2 li a
+{
+    text-decoration: none;
+    color: black;
+    text-transform:uppercase;
+    
+    
+}
+
+.navItem2 li a:hover
+{
+    
+    border-bottom: black 2px solid;
+}
+
+.navItem2 h3
+{
+    text-transform: uppercase;
+}
+
+
+.carousel-container {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    margin: 0 0;
+    background: url('./pic1.jpeg') no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+     background-position: 0 0;
+  }
+
+
+  .navigation .prev {
+    position: absolute;
+    z-index: 10;
+    font-size: 25px;
+    top: 40%;
+    left: 10px;
+    font-weight: 700;
+  }
+  .navigation .next {
+    right: 10px;
+    position: absolute;
+    font-size: 25px;
+    z-index: 10;
+    top: 40%;
+  }
+  .navigation .nav-btn {
+    background: rgba(255, 255, 255, 0.55);
+    cursor: pointer;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+  }
+  .navigation .nav-btn:hover {
+    background: white;
+  }
+
+  .carousel {
+    
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+    
+  
+  }
+  .carousel img {
+    width: 100%;
+    height: 90vh;
+    transition: all 0.3s ease;
+    object-fit: cover;
+   
+  }
+  
+  .item {
+    position: absolute;
+    display: none;
+    width: 100%;
+  }
+  .main {
+    display: block;
+    
+  }
+
+  .caption {
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.3);
+    height: 35px;
+  }
+
+  .headingHistory {
+    position: absolute;
+    
+    width: 100px;
+    font-size: 100px;
+    color: rgba(17, 16, 16, 0.3);
+    left: 20%;
+    bottom: 80%;
+    font-weight: bold;
+    
+  }
+
+  .slideText
+  {
+    position: absolute;
+    
+    width: 40%;
+    
+    font-size: 15px;
+    text-align: center;
+    color: rgb(66, 62, 62);
+    left: 25%;
+    bottom: 72%;
+  }
+
+  .box
+  {
+    position: absolute;
+    
+    width: 20px;
+    height: 20px;
+    
+    color: rgb(255, 255, 255);
+    background-color: rgba(17, 16, 16, 0.3);
+    left: 26.5%;
+    bottom: 83%;
+    
+  }
+
+  
+  .slideHeading
+  {
+    position: absolute;
+    
+    width: 8%;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items:center;
+    color: rgb(255, 255, 255);
+    color: rgba(17, 16, 16, 0.3);
+    left: 26.5%;
+    bottom: 86%;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+
+  .navContainer3
+{
+    position: relative;
+
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+       
+}
+
+.navItem3
+{
+    
+ 
+    height: 15vh;
+    width: 80%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    
+}
+
+.climbNumber
+{
+    
+    
+    width: 100px;
+    font-size: 100px;
+    color: rgba(17, 16, 16, 0.3);
+    font-weight: bold;
+ 
+
+}
+
+.boxClimb
+  {
+    position: absolute;
+ 
+    width: 20px;
+    height: 20px;
+    left: 16.5%;
+    bottom: 28%;    
+    color: rgb(255, 255, 255);
+    background-color: rgba(17, 16, 16, 0.3);
+   
+    
+  }
+
+  
+  .climbHeading
+  {
+    position: absolute;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items:center;
+    color: rgb(128, 128, 128);
+    text-transform: uppercase;
+    font-weight: bold;
+    left: 16%;
+    bottom: 40%;
+  }
+
+  .navContainer4
+{
+
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgb(9, 75, 105);   
+}
+
+.navItem4{ 
+    
+ 
+ height: 5vh;
+ width: 80%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ 
+}
+
+.navItem4 li
+{
+    
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px;
+    height: 5vh;
+    padding-top: 10px;
+    
+}
+
+.navItem4 li a
+{
+    text-decoration: none;
+    color: black;
+    text-transform:uppercase; 
+    color: white;
+
+    
+}
+.navItem4 li:hover
+{
+    background-color: rgb(109, 149, 165);
+
+}
+
+ .containerLast 
+{
+    width: 100%;
+
+ height: 70vh;
+ background: url('s4.jpeg') no-repeat center center fixed;
+ -webkit-background-size:cover;
+ -moz-background-size:cover;
+ -o-background-size:cover;
+ background-size:cover;
+ background-position: 0 0;
+ object-fit: cover;
+}
+
+.contentLast
+{
+    position: relative;
+    left: 20%;
+    top: 20%;
+    width: 250px;
+    height: 170px;
+    background-color: white;
+    opacity: 0.5;
+}
+.contentLast h1
+{
+    color: rgb(19, 53, 77);
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.contentLast p
+{
+    font-size: 12px;
+    word-spacing: 80px;
+    line-height: 1.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+footer
+{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color: rgb(51, 92, 119);
+    color: rgb(166, 165, 177);
+    width: 100%;
+}
+
+@media only screen and (max-width: 400px) {
+  .contain
+{
+    
+    width: 100%;
+    height: 80vh;
+}
+
+.navContainer
+{
+    
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: white;   
+}
+
+.navItem li a
+{
+    color: white;
+    font-size: larger;
+}
+
+.navContainer2
+{
+   
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.navItem2 h3
+{
+    font-size: medium;
+}
+.navItem2{ 
+    
+    width: 100%;
+    
+}
+
+.navItem2 li a
+{
+    font-size: small;
+}
+
+.carousel-container {
+  width: 100%;
+  height: 70vh;
+}
+
+
+.navigation .prev {
+  top: 50%;
+  left: 10px;
+}
+.navigation .next {
+  right: 10px;
+  top: 50%;
+}
+
+
+.carousel img {
+  width: 100%;
+  height: 70vh;
+}
+
+
+
+.headingHistory {
+  width: 80px;
+  font-size: 80px;
+  left: 20%;
+  bottom: 80%;
+}
+
+.slideText
+{
+  width: 80%;
+  left: 10%;
+  bottom: 60%;
+}
+
+.box
+{
+  width: 20px;
+  height: 20px;
+  
+  color: rgb(255, 255, 255);
+  background-color: rgba(17, 16, 16, 0.3);
+  left: 41%;
+  bottom: 83.5%;
+  
+}
+
+
+.slideHeading
+{
+  font-size: 25px;
+  left: 52%;
+  bottom: 87%;
+}
+
+
+.navContainer3
+{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navItem3
+{
+    height: 10vh;
+    width: 100%;
+}
+
+.climbNumber
+{
+    font-size: 50px;
+}
+
+.boxClimb
+  {
+    width: 10px;
+    height: 10px;
+    left: 13%;
+    bottom: 28%;    
+  }
+
+  
+  .climbHeading
+  {
+    font-size: 20px;
+    left: 18%;
+    bottom: 40%;
+  }
+
+  .text3
+  {
+    position: absolute;
+    left: 50%;
+    text-align: center;
+  }
+
+.navItem4{ 
+ width: 80%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.containerLast 
+{
+  height: 60vh;
+}
+
+.contentLast
+{
+   height: 180px;
+   
+}
+.contentLast h1
+{
+    padding-left: 20px;
+    font-size: 20px;
+  }
+
+.contentLast p
+{
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+footer
+{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+}
+footer h1
+{
+  font-size: 15px;
+}
+
+
+footer p
+{
+  font-size: 10px;
+}
+
+}
